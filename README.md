@@ -29,3 +29,7 @@
 - Context API : Pour partager les données et gérer l'état à travers l'application.
 - React Icons : Pour utiliser des icônes.
   Hooks useEffect et useState : Pour gérer l'état des composants et les effets secondaires.
+
+## GIF
+
+<img src="./public/ecommerce.gif"/>
