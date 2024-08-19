@@ -1,12 +1,3 @@
-/*
-    * Context API:
-    * Uygulamada birden çok bileşenin ihtiyacı olan 
-    * verileri bileşenlerden bağımsız bir şekilde konumlanan
-    * merkezlerde yönetmeye yarar.
-
-    * Context tuttuğumuz stateleri bileşenlere doğrudan aktarım yapabilen state yönetim aracıdır.s
-*/
-
 import { createContext, useEffect, useState } from "react";
 import api from "../utils/api";
 

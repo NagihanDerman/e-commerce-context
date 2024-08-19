@@ -15,7 +15,7 @@ export const BasketProvider = ({ children }) => {
     const found = basket.find((i) => i.id === newProduct.id);
     //* Ürün sepette varsa miktarını 1 arttır
     if (found) {
-      // a) bulunan ürünüün miktarını 1 arttır(nesneyi güncelle)
+      // a) bulunan ürünün miktarını 1 arttır(nesneyi güncelle)
       const updated = { ...found, amount: found.amount + 1 };
       // b) sepet dizisindeki eski ürün yerine güncel halini koy
       const newBasket = basket.map((i) => (i.id === updated.id ? updated : i));

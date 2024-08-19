@@ -10,7 +10,7 @@ const Header = () => {
 
   const [categories, setCategories] = useState([]);
 
-  // api'dan kategori verişni al
+  // api'dan kategori verisini alma
   useEffect(() => {
     axios
       .get("https://fakestoreapi.com/products/categories")

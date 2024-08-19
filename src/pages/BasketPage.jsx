@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { BasketContext } from "../context/basketContext";
 import BasketItem from "../components/BasketItem";
 import { Link } from "react-router-dom";
-import { ProductContext } from "./../context/productContext";
 
 const BasketPage = () => {
   const { basket, addToBasket, decreaseAmount } = useContext(BasketContext);
